@@ -12,8 +12,7 @@ Extrapolation of https://github.com/akshaybahadur21/Guitar-Learner.
 
 ![Pipeline](https://user-images.githubusercontent.com/51843952/207555112-9cbfc75e-991f-40d1-93e7-686716f568b9.png)
 
-Check pdf for the paper
-https://github.com/sunman91/Visual-Guitar-Ukulele-Chord-Recognition-using-MediaPipe/blob/main/Visual%20Guitar%20and%20Ukulele%20Chord%20Classification%20using%20MediaPipe.pdf
+Check [pdf](https://github.com/sunman91/Visual-Guitar-Ukulele-Chord-Recognition-using-MediaPipe/blob/f2af5b2509ab145f7ac8bd301b64bae904203ea8/Visual%20Guitar%20and%20Ukulele%20Chord%20Classification%20using%20MediaPipe.pdf) for the paper
 
 ## Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
