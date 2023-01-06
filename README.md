@@ -2,8 +2,8 @@
 A Computer Vision project for Visual Recognition of chords from hand poses for Guitar and Ukulele using MediaPipe.
 
 ## Description 🎼
-This project uses the extracted hand landmarks from images using MediaPipe to recognise chord shapes. Does not take into account fret position.
-i.e. All bar chords will be considered F
+This project uses the extracted hand landmarks from images using MediaPipe to recognise chord shapes.
+-Does not take into account fret position i.e. All bar chords will be considered F
 
 Extrapolation of https://github.com/akshaybahadur21/Guitar-Learner.
 - Trained with more difficult and more ambiguous guitar chord shapes
