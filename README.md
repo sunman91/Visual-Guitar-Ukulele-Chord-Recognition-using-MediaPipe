@@ -2,8 +2,9 @@
 A Computer Vision project for Visual Recognition of chords from hand poses for Guitar and Ukulele using MediaPipe.
 
 ## Description 🎼
-This project uses the extracted hand landmarks from images using MediaPipe to recognise chord shapes.
--Does not take into account fret position i.e. All bar chords will be considered F
+This project uses the extracted hand landmarks from images using MediaPipe to recognise chord shapes. 
+
+
 
 Extrapolation of https://github.com/akshaybahadur21/Guitar-Learner.
 - Trained with more difficult and more ambiguous guitar chord shapes
@@ -14,14 +15,20 @@ Extrapolation of https://github.com/akshaybahadur21/Guitar-Learner.
 
 Check [pdf](https://github.com/sunman91/Visual-Guitar-Ukulele-Chord-Recognition-using-MediaPipe/blob/f2af5b2509ab145f7ac8bd301b64bae904203ea8/Visual%20Guitar%20and%20Ukulele%20Chord%20Classification%20using%20MediaPipe.pdf) for the paper
 
+### Limitations
+- It does not take into account fret position i.e. all bar chords will be considered F.
+- It does not take in any audio information. So it will predict the same chord regardless of the instrument's tuning.
+
 ## Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
 
 ## Setup 🖥️
-- Use 'CreateDataset_ukelele.py' or 'CreateDataset.py' to take image frames from webcam video to create an image dataset to train. Enter the gesture name 
+- Use 'CreateDataset_ukelele.py' or 'CreateDataset.py' to take image frames from webcam video to create an image dataset to train. Enter the gesture(Chord) name 
 - Use 'ukelele_trainer.py' or 'resnet_trainer.py' to train the model from the above created dataset
 
 ## Execution 🐉
+Finally, run GuitarLearner.py for testing your model via webcam.
+It will detect the chords that you have trained in real time with the camera.
 
 ```
 python3 GuitarLearner.py
@@ -36,6 +43,3 @@ python3 GuitarLearner.py
  -  Ivan Grishchenko and Valentin Bazarevsky, Research Engineers, Google Research. [Mediapipe by Google](https://github.com/google/mediapipe)
  -  "GitHub - akshaybahadur21/Guitar-Learner: Guitar chord detection and classifier for humans 🎸", GitHub, 2022. [Online]. Available:
     https://github.com/akshaybahadur21/Guitar-Learner.[Accessed: 24- Jul- 2022]
-
-
-
